@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        h1{ color:red;
+            font-size: 48px;
+
+        }
+    </Style>
+</head>
+<body>
+    <h1> This is a heading</h1>
+    <main>
+        <h1>Hello main</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, quibusdam perferendis repudiandae fuga voluptatibus id, inventore consequuntur deserunt dolore minima consectetur aliquam animi magni cupiditate? Nesciunt quam numquam vitae odit dolor repudiandae atque, illum ratione velit, repellat molestiae quasi voluptatibus doloribus aut nostrum laborum libero magnam facilis, consequatur inventore unde maxime tempora. Veniam quae architecto animi esse et quia, libero dicta vitae illum soluta, cum, reiciendis incidunt corrupti. Facere exercitationem sunt alias adipisci vitae nobis iure necessitatibus dolore excepturi deleniti, dicta aliquid aspernatur. Fuga ducimus, deleniti ipsa nesciunt et dolorem obcaecati ipsam nam omnis? Consectetur officiis in corporis nesciunt libero.</p>
+        
+    </main>
+    <button onclick="changethispagefunc();">click me!</button>
+ <script>
+        changethispagefunc=function(){
+            let myMain;
+
+         document.body.style.background= "Green";
+            myMain=document.querySelector("main");
+            myMain.innerHTML="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet, ab nihil consequuntur tempore illum saepe ea dolor hic. Sint unde nihil, consequatur quam sunt magnam rem hic tempora voluptates, quae velit. Eum dolor quod, tempora iusto necessitatibus, incidunt adipisci architecto non minus mollitia recusandae maiores soluta, perspiciatis aut nisi hic. Qui vel voluptates dolore reprehenderit debitis corrupti soluta amet dignissimos, dolorem laborum reiciendis tempora, magni voluptatum, sapiente odio ipsum repudiandae quibusdam hic fugiat ratione a similique! Similique, officiis excepturi! Provident delectus facilis velit distinctio, nam voluptates culpa quibusdam molestiae debitis nulla laborum! Expedita quod itaque aut ratione dolorum error?";
+                 myMain.style.height="50px";
+                 myMain.style.width="50%";
+                myMain.style.backgroundcolor="Red";
+                myMain.style.fontStyle="italic";
+        
+        }
+    </script>
+    
+</body>
+</html>

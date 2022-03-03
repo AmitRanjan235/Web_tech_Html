@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        
+        #tre {
+            color:aqua
+           }
+
+    </Style>
+</head>
+<body>
+    <h1 id="tre"> This is a heading</h1>
+    <button onclick="changethispagefunc();">click me!</button>
+    <main>
+        <h1>Hello main</h1>
+        <p>text</p>
+    
+    </main>
+ <script type="text/javascript">
+        changethispagefunc=function(){
+            var myMain;
+
+            document.body.style.background= "Green";
+            myMain=document.queryselector('main');
+            myMain.innerHTML="<h3>text<h3>";
+                myMain.style.height="50px";
+                myMain.style.width="50%";
+                myMain.style.backgroundcolor="Red";
+        
+        }
+    </script>
+    
+</body>
+</html>
